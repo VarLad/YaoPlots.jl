@@ -81,7 +81,7 @@ YaoPlots.CircuitStyles.fontfamily[] = "JuliaMono" # specify your favorite font h
 plot(chain(3, put(1=>X), repeat(3, H)))
 ```
 
-![modified_circuit](https://user-images.githubusercontent.com/51269425/149932187-043092c7-46ed-4d51-817f-b9070ed404c9.png)
+![attribute_example_1](examples/attr_circuit_1.png)
 
 `YaoPlots.CircuitStyles.linecolor[]`, `YaoPlots.CircuitStyles.gate_bgcolor[]`, `YaoPlots.CircuitStyles.textcolor[]` used to define linecolor, background color of gates, and text color respectively, take hexadecimal color codes as well as color names as string. 
 
@@ -104,4 +104,4 @@ YaoPlots.CircuitStyles.paramtextsize[] = 8pt
 		
 plot(chain(3, put(1=>X), repeat(3, H), put(2=>Y), repeat(3, Rx(π/2))))
 ```
-![modified_circuit](https://user-images.githubusercontent.com/51269425/149934794-eae46d21-2ab2-4eab-b147-8d030a65389d.png)
+![modified_circuit](examples/attr_circuit_2.png)
